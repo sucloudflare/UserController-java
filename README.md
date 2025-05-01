@@ -14,7 +14,7 @@
 <ol>
 <li>Descompacte o arquivo ZIP.</li>
 <li>Navegue até o diretório do projeto:
-<pre><code>cd projeto-usuarios</code></pre>
+<pre><code>cd UserController-java</code></pre>
 </li>
 <li>Compile e execute o projeto com o Maven:
 <pre><code>mvn spring-boot:run</code></pre>
