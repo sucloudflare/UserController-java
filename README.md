@@ -45,6 +45,18 @@
 <li><strong>DemoApplication.java</strong>: Classe principal para iniciar a aplicação.</li>
 <li><strong>application.properties</strong>: Configurações da aplicação.</li>
 </ul>
+
+<h1>Atualização</h1>
+
+<h2>📁 Estrutura do Projeto</h2>
+<ul>
+  <li><strong>UserController.java</strong>: Controlador REST para gerenciar usuários.</li>
+  <li><strong>User.java</strong>: Entidade JPA que representa um usuário.</li>
+  <li><strong>UserRepository.java</strong>: Repositório para operações CRUD.</li>
+  <li><strong>DemoApplication.java</strong>: Classe principal para iniciar a aplicação.</li>
+  <li><strong>application.properties</strong>: Configurações do H2 e da aplicação.</li>
+</ul>
+
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
 
