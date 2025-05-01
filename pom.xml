@@ -5,10 +5,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>projeto-usuarios</artifactId>
+	<artifactId>projeto-usuarios-h2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>projeto-usuarios</name>
-	<description>Projeto Spring Boot para gerenciar usuários</description>
+	<name>projeto-usuarios-h2</name>
+	<description>Projeto Spring Boot com H2 para gerenciar usuários</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -25,6 +25,15 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
